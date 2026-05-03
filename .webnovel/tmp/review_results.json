@@ -1,0 +1,23 @@
+{
+  "issues": [
+    {
+      "severity": "low",
+      "category": "setting",
+      "location": "角色状态数据",
+      "description": "无法读取角色状态数据（state get-entity 失败），无法校验角色能力与境界是否匹配",
+      "evidence": "python webnovel.py state get-entity 返回 FAILED",
+      "fix_hint": "检查记忆模块是否正常初始化，或手动填充角色基础设定",
+      "blocking": false
+    },
+    {
+      "severity": "low",
+      "category": "timeline",
+      "location": "章节衔接",
+      "description": "无法读取上章摘要（index get-recent-state-changes 失败），无法校验时间线是否衔接",
+      "evidence": "python webnovel.py index get-recent-state-changes 返回 FAILED",
+      "fix_hint": "检查记忆模块是否正常初始化",
+      "blocking": false
+    }
+  ],
+  "summary": "2个问题：0个阻断，0个高优。无法校验设定一致性与时间线（数据读取失败）。第1章为开篇，未发现明显矛盾。"
+}

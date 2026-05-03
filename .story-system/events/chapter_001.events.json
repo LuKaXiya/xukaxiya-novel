@@ -1,0 +1,36 @@
+[
+  {
+    "event_id": "8ad127c5314ae2df",
+    "chapter": 1,
+    "event_type": "character_state_changed",
+    "subject": "jiang_yechen",
+    "payload": {
+      "field": "game_entered",
+      "new": true,
+      "old": false
+    }
+  },
+  {
+    "event_id": "e10c8ddcabefc5e5",
+    "chapter": 1,
+    "event_type": "character_state_changed",
+    "subject": "night_no_trace",
+    "payload": {
+      "field": "career",
+      "new": "剑士",
+      "old": null
+    }
+  },
+  {
+    "event_id": "15ee7edd968fd2af",
+    "chapter": 1,
+    "event_type": "artifact_obtained",
+    "subject": "night_no_trace",
+    "payload": {
+      "artifact_id": "novice_short_sword",
+      "name": "白板新手短剑",
+      "owner": "night_no_trace",
+      "stats": "攻击力5-8"
+    }
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "chapter": 1,
+  "accepted_events": [
+    {
+      "event_type": "character_state_changed",
+      "subject": "jiang_yechen",
+      "payload": {
+        "field": "game_entered",
+        "new": true,
+        "old": false
+      }
+    },
+    {
+      "event_type": "character_state_changed",
+      "subject": "night_no_trace",
+      "payload": {
+        "field": "career",
+        "new": "剑士",
+        "old": null
+      }
+    },
+    {
+      "event_type": "artifact_obtained",
+      "subject": "night_no_trace",
+      "payload": {
+        "artifact_id": "novice_short_sword",
+        "name": "白板新手短剑",
+        "owner": "night_no_trace",
+        "stats": "攻击力5-8"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "jiang_yechen",
+      "field": "age",
+      "old": null,
+      "new": 26
+    },
+    {
+      "entity_id": "jiang_yechen",
+      "field": "background",
+      "old": null,
+      "new": "特种部队退役"
+    },
+    {
+      "entity_id": "jiang_yechen",
+      "field": "employment_status",
+      "old": "有工作",
+      "new": "失业半年"
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "level",
+      "old": null,
+      "new": 1
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "equipment",
+      "old": null,
+      "new": ["白板新手布衣", "白板新手短剑(攻击力5-8)"]
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "current_task",
+      "old": null,
+      "new": "击败七只田鼠"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "jiang_yechen",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "主角",
+      "payload": {
+        "name": "蒋夜晨",
+        "age": 26,
+        "background": "特种部队退役半年",
+        "status": "退役金即将耗尽"
+      }
+    },
+    {
+      "entity_id": "night_no_trace",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "主角（游戏内）",
+      "payload": {
+        "name": "夜无痕",
+        "career": "剑士",
+        "level": 1,
+        "real_owner": "jiang_yechen"
+      }
+    },
+    {
+      "entity_id": "old_chen",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "配角",
+      "payload": {
+        "name": "老陈",
+        "role": "蒋夜晨室友",
+        "occupation": "外卖员",
+        "game_earnings": "上月赚800"
+      }
+    },
+    {
+      "entity_id": "xuandimension",
+      "action": "upsert",
+      "entity_type": "势力",
+      "tier": "核心",
+      "payload": {
+        "name": "《虚空纪元》",
+        "type": "VR游戏",
+        "server": "新手服天枢",
+        "online_players": "1,247,893"
+      }
+    },
+    {
+      "entity_id": "newbie_village",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "核心",
+      "payload": {
+        "name": "新手村",
+        "location": "天枢服务器"
+      }
+    }
+  ],
+  "summary_text": "蒋夜晨，前特种部队退役军人，失业半年退役金将尽，从室友老陈处获得《虚空纪元》游戏头盔后进入游戏。他选择冷门的剑士职业，创建角色夜无痕，以白板装备在新手村接受击败七只田鼠的首个任务，正式踏入《虚空纪元》的世界。",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "location": "蒋夜晨房间",
+      "time": "傍晚",
+      "characters": ["蒋夜晨", "老陈（提及）"],
+      "content": "蒋夜晨从包装盒取出头盔，手指停顿确认手感，回想起退役后求职失败的困境，最终戴上头盔进入游戏"
+    },
+    {
+      "scene_id": 2,
+      "location": "虚空纪元（创角界面）",
+      "time": "无时间感",
+      "characters": ["蒋夜晨"],
+      "content": "系统认证身份，显示游戏CG展示种族战争，主角选择剑士职业，输入角色名夜无痕"
+    },
+    {
+      "scene_id": 3,
+      "location": "新手村",
+      "time": "进入游戏后",
+      "characters": ["夜无痕", "其他玩家（群演）"],
+      "content": "夜无痕出现在新手村，穿着白板装备，听闻其他玩家评价剑士为最差职业，随后接受田鼠任务前往村北"
+    }
+  ],
+  "scenes_chunked": 3,
+  "timing_ms": {
+    "extraction": 45,
+    "disambiguation": 12,
+    "artifacts_write": 28
+  },
+  "bottlenecks_top3": []
+}

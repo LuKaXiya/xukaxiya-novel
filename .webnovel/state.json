@@ -32,9 +32,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 0,
-    "total_words": 0,
-    "last_updated": "2026-05-02 23:45:39",
+    "current_chapter": 1,
+    "total_words": 2304,
+    "last_updated": "2026-05-03 00:31:11",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -53,7 +53,10 @@
         "chapters_range": "101-200",
         "planned_at": "2026-05-03"
       }
-    ]
+    ],
+    "chapter_status": {
+      "1": "chapter_committed"
+    }
   },
   "protagonist_state": {
     "name": "蒋夜晨",
@@ -72,7 +75,11 @@
       "cooldown": 0,
       "skills": []
     },
-    "attributes": {}
+    "attributes": {},
+    "age": 26,
+    "background": "特种部队退役",
+    "employment_status": "失业半年",
+    "game_entered": true
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -95,5 +102,22 @@
     "current_dominant": "quest",
     "chapters_since_switch": 0,
     "history": []
+  },
+  "entity_state": {
+    "jiang_yechen": {
+      "age": 26,
+      "background": "特种部队退役",
+      "employment_status": "失业半年",
+      "game_entered": true
+    },
+    "night_no_trace": {
+      "level": 1,
+      "equipment": [
+        "白板新手布衣",
+        "白板新手短剑(攻击力5-8)"
+      ],
+      "current_task": "击败七只田鼠",
+      "career": "剑士"
+    }
   }
 }

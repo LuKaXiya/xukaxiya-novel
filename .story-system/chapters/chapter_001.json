@@ -1,31 +1,15 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "MASTER_SETTING",
+    "contract_type": "CHAPTER_BRIEF",
     "generator_version": "phase1",
-    "query": "第1章：主角蒋夜晨退役失意，进入游戏《虚空纪元》，选择剑士职业开始新手任务"
+    "chapter": 1
   },
-  "route": {
-    "primary_genre": "游戏电竞",
-    "canonical_genre": "游戏",
-    "route_source": "inferred_genre_fallback",
-    "genre_filter": "游戏",
-    "recommended_base_tables": [
-      "场景写法",
-      "人设与关系",
-      "写作技法"
-    ],
-    "recommended_dynamic_tables": [
-      "爽点与节奏",
-      "桥段套路",
-      "场景写法"
-    ]
+  "override_allowed": {
+    "chapter_focus": "第1章：主角蒋夜晨退役失意，进入游戏《虚空纪元》，选择剑士职业开始新手任务"
   },
-  "master_constraints": {
-    "core_tone": "规则清晰的竞技反转",
-    "pacing_strategy": "比赛段强节奏训练段短兑现"
-  },
-  "base_context": [
+  "chapter_directive": {},
+  "dynamic_context": [
     {
       "编号": "CH-085",
       "适用技能": "write|plan",
@@ -153,6 +137,52 @@
       "_reasoning_rule": "游戏",
       "_chapter_keyword_score": 0,
       "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "WT-081",
+      "适用技能": "write|plan",
+      "分类": "游戏",
+      "层级": "知识补充",
+      "关键词": "赛事解说|操作细节|战术沟通|团战信息",
+      "意图与同义词": "电竞比赛怎么写|游戏操作怎么写清楚|赛事解说怎么有燃点",
+      "适用题材": "游戏",
+      "大模型指令": "电竞写法要把操作、沟通、地图信息和解说反应合在一起，别只写他很强。",
+      "核心摘要": "电竞爽点来自读者看懂他为什么强，而不是只听旁人夸。",
+      "详细展开": "技能冷却、视野控制、资源点、走位和队内指令都是呈现实力的抓手。",
+      "技法类型": "竞技",
+      "技法名称": "操作战术同步写法",
+      "适用场景": "电竞比赛|团战|翻盘局|训练赛",
+      "毒点": "只写手速快和全场震惊|读者看不懂操作价值|解说替代过程",
+      "正例": "“龙坑没眼。”队长话音刚落，他已经把位移留给第二段进场，等的就是对面辅助交控。",
+      "反例": "他操作极快，一套连招打出，全场都惊呆了。",
+      "_table": "写作技法",
+      "_priority_rank": 999,
+      "_reasoning_rule": "游戏",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "TR-089",
+      "适用技能": "write|plan",
+      "分类": "桥段",
+      "层级": "知识补充",
+      "关键词": "电竞让二追三|赛点翻盘|换战术|绝境团战",
+      "意图与同义词": "电竞让二追三怎么写|赛点翻盘桥段|比赛绝境怎么燃",
+      "适用题材": "游戏",
+      "大模型指令": "电竞翻盘要让读者看见战术调整和心理承压，不要靠主角突然爆种。",
+      "核心摘要": "让二追三的爽点来自每一局都解决一个前面暴露的问题。",
+      "详细展开": "换线、禁选调整、资源置换、队内沟通和心态稳住都能成为翻盘台阶。",
+      "桥段名称": "电竞赛点让二追三",
+      "前置铺垫": "前两局失败原因明确|队伍内部压力已爆|对手有针对策略",
+      "核心爽点": "连续修正|团队信任|公开逆转",
+      "转折设计": "先输到赛点，再用一次不被看好的阵容选择打乱对手准备",
+      "反套路变种": "最后一局不是单人天秀，而是前面所有修正共同兑现",
+      "毒点": "失败原因不清|翻盘只靠手速|队友只负责喊加油",
+      "_table": "桥段套路",
+      "_priority_rank": 999,
+      "_reasoning_rule": "游戏",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
     }
   ],
   "source_trace": [
@@ -242,14 +272,10 @@
       "inject_target": "CHAPTER_BRIEF.writing_guidance"
     }
   ],
-  "override_policy": {
-    "locked": [
-      "route.primary_genre",
-      "master_constraints.core_tone"
-    ],
-    "append_only": [
-      "anti_patterns"
-    ],
-    "override_allowed": []
+  "reasoning": {
+    "genre": "游戏",
+    "inject_target": "CHAPTER_BRIEF.writing_guidance",
+    "style_priority": "竞技张力 > 团队协作 > 热血爆发",
+    "pacing_strategy": "赛前短铺 比赛强推 赛后复盘压短"
   }
 }

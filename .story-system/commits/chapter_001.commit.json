@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 1,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_001.json",
+    "review": "chapter_001.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "issues": [
+      {
+        "severity": "low",
+        "category": "setting",
+        "location": "角色状态数据",
+        "description": "无法读取角色状态数据（state get-entity 失败），无法校验角色能力与境界是否匹配",
+        "evidence": "python webnovel.py state get-entity 返回 FAILED",
+        "fix_hint": "检查记忆模块是否正常初始化，或手动填充角色基础设定",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "timeline",
+        "location": "章节衔接",
+        "description": "无法读取上章摘要（index get-recent-state-changes 失败），无法校验时间线是否衔接",
+        "evidence": "python webnovel.py index get-recent-state-changes 返回 FAILED",
+        "fix_hint": "检查记忆模块是否正常初始化",
+        "blocking": false
+      }
+    ],
+    "summary": "2个问题：0个阻断，0个高优。无法校验设定一致性与时间线（数据读取失败）。第1章为开篇，未发现明显矛盾。"
+  },
+  "fulfillment_result": {
+    "chapter": 1,
+    "outline_nodes": [
+      {
+        "node_id": "main_plot",
+        "status": "covered",
+        "description": "蒋夜晨从老陈处获得游戏头盔，进入《虚空纪元》创建剑士角色夜无痕"
+      },
+      {
+        "node_id": "character_background",
+        "status": "covered",
+        "description": "蒋夜晨特种部队退役半年，求职不顺，退役金即将耗尽"
+      },
+      {
+        "node_id": "gameworld_intro",
+        "status": "covered",
+        "description": "《虚空纪元》VR游戏，7种职业，剑士最冷门（选择率3.2%）"
+      },
+      {
+        "node_id": "first_task",
+        "status": "covered",
+        "description": "蒋夜晨接受新手任务：击败七只田鼠，收集牙齿"
+      }
+    ],
+    "fulfillment_summary": "本章完整覆盖了主角进入游戏的完整流程，包括背景交代（退役失业）、获得头盔、创建角色、进入新手村、接受首个任务。所有核心情节点均已呈现。"
+  },
+  "disambiguation_result": {
+    "chapter": 1,
+    "disambiguation_needed": [],
+    "confidence_high": [
+      {
+        "entity_id": "jiang_yechen",
+        "name": "蒋夜晨",
+        "reason": "主角姓名贯穿全文，明确无误"
+      },
+      {
+        "entity_id": "night_no_trace",
+        "name": "夜无痕",
+        "reason": "主角在游戏中的角色名，输入时无犹豫"
+      },
+      {
+        "entity_id": "old_chen",
+        "name": "老陈",
+        "reason": "室友身份明确，头盔来源清晰"
+      }
+    ],
+    "auto_adopted": true
+  },
+  "accepted_events": [
+    {
+      "event_type": "character_state_changed",
+      "subject": "jiang_yechen",
+      "payload": {
+        "field": "game_entered",
+        "new": true,
+        "old": false
+      }
+    },
+    {
+      "event_type": "character_state_changed",
+      "subject": "night_no_trace",
+      "payload": {
+        "field": "career",
+        "new": "剑士",
+        "old": null
+      }
+    },
+    {
+      "event_type": "artifact_obtained",
+      "subject": "night_no_trace",
+      "payload": {
+        "artifact_id": "novice_short_sword",
+        "name": "白板新手短剑",
+        "owner": "night_no_trace",
+        "stats": "攻击力5-8"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "jiang_yechen",
+      "field": "age",
+      "old": null,
+      "new": 26
+    },
+    {
+      "entity_id": "jiang_yechen",
+      "field": "background",
+      "old": null,
+      "new": "特种部队退役"
+    },
+    {
+      "entity_id": "jiang_yechen",
+      "field": "employment_status",
+      "old": "有工作",
+      "new": "失业半年"
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "level",
+      "old": null,
+      "new": 1
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "equipment",
+      "old": null,
+      "new": [
+        "白板新手布衣",
+        "白板新手短剑(攻击力5-8)"
+      ]
+    },
+    {
+      "entity_id": "night_no_trace",
+      "field": "current_task",
+      "old": null,
+      "new": "击败七只田鼠"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "jiang_yechen",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "主角",
+      "payload": {
+        "name": "蒋夜晨",
+        "age": 26,
+        "background": "特种部队退役半年",
+        "status": "退役金即将耗尽"
+      }
+    },
+    {
+      "entity_id": "night_no_trace",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "主角（游戏内）",
+      "payload": {
+        "name": "夜无痕",
+        "career": "剑士",
+        "level": 1,
+        "real_owner": "jiang_yechen"
+      }
+    },
+    {
+      "entity_id": "old_chen",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "配角",
+      "payload": {
+        "name": "老陈",
+        "role": "蒋夜晨室友",
+        "occupation": "外卖员",
+        "game_earnings": "上月赚800"
+      }
+    },
+    {
+      "entity_id": "xuandimension",
+      "action": "upsert",
+      "entity_type": "势力",
+      "tier": "核心",
+      "payload": {
+        "name": "《虚空纪元》",
+        "type": "VR游戏",
+        "server": "新手服天枢",
+        "online_players": "1,247,893"
+      }
+    },
+    {
+      "entity_id": "newbie_village",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "核心",
+      "payload": {
+        "name": "新手村",
+        "location": "天枢服务器"
+      }
+    }
+  ],
+  "summary_text": "蒋夜晨，前特种部队退役军人，失业半年退役金将尽，从室友老陈处获得《虚空纪元》游戏头盔后进入游戏。他选择冷门的剑士职业，创建角色夜无痕，以白板装备在新手村接受击败七只田鼠的首个任务，正式踏入《虚空纪元》的世界。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

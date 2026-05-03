@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "disambiguation_needed": [],
+  "confidence_high": [
+    {
+      "entity_id": "jiang_yechen",
+      "name": "蒋夜晨",
+      "reason": "主角姓名贯穿全文，明确无误"
+    },
+    {
+      "entity_id": "night_no_trace",
+      "name": "夜无痕",
+      "reason": "主角在游戏中的角色名，输入时无犹豫"
+    },
+    {
+      "entity_id": "old_chen",
+      "name": "老陈",
+      "reason": "室友身份明确，头盔来源清晰"
+    }
+  ],
+  "auto_adopted": true
+}

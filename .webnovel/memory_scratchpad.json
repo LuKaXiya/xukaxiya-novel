@@ -1,0 +1,207 @@
+{
+  "character_state": [
+    {
+      "id": "mem-character_state-ded91ba46702c9e6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_yechen",
+      "field": "age",
+      "value": "26",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:jiang_yechen:age:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-e21c81e47469439e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_yechen",
+      "field": "background",
+      "value": "特种部队退役",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:jiang_yechen:background:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-a4a372ab92409790",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_yechen",
+      "field": "employment_status",
+      "value": "失业半年",
+      "payload": {
+        "old_value": "有工作"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:jiang_yechen:employment_status:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-4c5eba318daf484f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "night_no_trace",
+      "field": "level",
+      "value": "1",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:night_no_trace:level:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-0f6b46bc1653f58c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "night_no_trace",
+      "field": "equipment",
+      "value": "['白板新手布衣', '白板新手短剑(攻击力5-8)']",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:night_no_trace:equipment:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-57183aa135ac6a50",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "night_no_trace",
+      "field": "current_task",
+      "value": "击败七只田鼠",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:night_no_trace:current_task:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-5c68cfb64ea48e7a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "jiang_yechen",
+      "field": "first_seen",
+      "value": "蒋夜晨",
+      "payload": {
+        "tier": "主角",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:jiang_yechen:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-6730b71c7ef619ef",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "night_no_trace",
+      "field": "first_seen",
+      "value": "夜无痕",
+      "payload": {
+        "tier": "主角（游戏内）",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:night_no_trace:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-b9e93a276cd2e931",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "old_chen",
+      "field": "first_seen",
+      "value": "老陈",
+      "payload": {
+        "tier": "配角",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:old_chen:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-c7165b3d622cca77",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xuandimension",
+      "field": "first_seen",
+      "value": "《虚空纪元》",
+      "payload": {
+        "tier": "核心",
+        "type": "势力"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:xuandimension:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    },
+    {
+      "id": "mem-character_state-d3e54eea47ecafdd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "newbie_village",
+      "field": "first_seen",
+      "value": "新手村",
+      "payload": {
+        "tier": "核心",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:newbie_village:1"
+      ],
+      "updated_at": "2026-05-03T00:31:11"
+    }
+  ],
+  "story_facts": [],
+  "world_rules": [],
+  "timeline": [],
+  "open_loops": [],
+  "reader_promises": [],
+  "relationships": [],
+  "meta": {
+    "version": 1,
+    "last_updated": "2026-05-03T00:31:11",
+    "total_items": 11
+  }
+}

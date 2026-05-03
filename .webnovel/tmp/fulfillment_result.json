@@ -1,0 +1,26 @@
+{
+  "chapter": 1,
+  "outline_nodes": [
+    {
+      "node_id": "main_plot",
+      "status": "covered",
+      "description": "蒋夜晨从老陈处获得游戏头盔，进入《虚空纪元》创建剑士角色夜无痕"
+    },
+    {
+      "node_id": "character_background",
+      "status": "covered",
+      "description": "蒋夜晨特种部队退役半年，求职不顺，退役金即将耗尽"
+    },
+    {
+      "node_id": "gameworld_intro",
+      "status": "covered",
+      "description": "《虚空纪元》VR游戏，7种职业，剑士最冷门（选择率3.2%）"
+    },
+    {
+      "node_id": "first_task",
+      "status": "covered",
+      "description": "蒋夜晨接受新手任务：击败七只田鼠，收集牙齿"
+    }
+  ],
+  "fulfillment_summary": "本章完整覆盖了主角进入游戏的完整流程，包括背景交代（退役失业）、获得头盔、创建角色、进入新手村、接受首个任务。所有核心情节点均已呈现。"
+}
