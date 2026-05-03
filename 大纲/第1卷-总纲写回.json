@@ -1,0 +1,21 @@
+{
+  "next_volume_anchor": {
+    "volume": 2,
+    "volume_name": "虚空觉醒",
+    "core_conflict": "转职虚空剑士，开始展示实力，与氪金公会冲突",
+    "volume_end_climax": "首场团战收割统治"
+  },
+  "foreshadow_writeback": [
+    {"content": "主角特种兵身份暗示", "buried_chapter": "第1-5章", "payoff_chapter": "第350章", "level": "高"},
+    {"content": "虚空之章线索（神秘NPC）", "buried_chapter": "第20章", "payoff_chapter": "第50章", "level": "高"},
+    {"content": "苏晚晴顶级战队背景", "buried_chapter": "第7,25章", "payoff_chapter": "第100章", "level": "中"},
+    {"content": "神罚公会针对主角", "buried_chapter": "第10章", "payoff_chapter": "第80章", "level": "中"},
+    {"content": "虚空剑士叠层机制暗示", "buried_chapter": "第35,40章", "payoff_chapter": "第55章", "level": "高"},
+    {"content": "主角过度依赖战术思维导致失误", "buried_chapter": "第30章", "payoff_chapter": "第150章", "level": "中"}
+  ],
+  "open_loop_writeback": [
+    {"content": "虚空剑士的叠层机制具体规则是什么？", "buried_chapter": "第48章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "苏晚晴是否会发现主角的真实身份？", "buried_chapter": "第25章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "神罚公会会如何报复主角？", "buried_chapter": "第31章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}

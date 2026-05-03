@@ -1,0 +1,21 @@
+{
+  "next_volume_anchor": {
+    "volume": 4,
+    "volume_name": "荣耀巅峰",
+    "core_conflict": "代表平民技术流挑战巅峰，与前世宿敌对决",
+    "volume_end_climax": "最终决战+身份揭晓"
+  },
+  "foreshadow_writeback": [
+    {"content": "上将家族与主角的真正关系", "buried_chapter": "第110章", "payoff_chapter": "第300章", "level": "高"},
+    {"content": "前世宿敌现身", "buried_chapter": "第150章", "payoff_chapter": "第300章", "level": "高"},
+    {"content": "苏晚晴发现主角真实身份", "buried_chapter": "第150-180章", "payoff_chapter": "第350章", "level": "高"},
+    {"content": "服务器争霸赛资格", "buried_chapter": "第175章", "payoff_chapter": "第201章", "level": "高"},
+    {"content": "虚空公会成为主城第一", "buried_chapter": "第200章", "payoff_chapter": "第201章", "level": "高"},
+    {"content": "「虚空阵」战术成为标志战术", "buried_chapter": "第146章", "payoff_chapter": "第250章", "level": "中"}
+  ],
+  "open_loop_writeback": [
+    {"content": "上将家族首领与主角的前世关系是什么？", "buried_chapter": "第150章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "苏晚晴发现身份后如何反应？", "buried_chapter": "第150章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "服务器间战争会如何展开？", "buried_chapter": "第175章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}

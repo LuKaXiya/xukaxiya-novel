@@ -1,0 +1,117 @@
+[
+  {
+    "text": "胜负靠口号",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-017"
+  },
+  {
+    "text": "技能机制不清",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-017"
+  },
+  {
+    "text": "团队配合缺因果",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-017"
+  },
+  {
+    "text": "只写双方进入比赛然后主角操作很秀，缺少战术和赛场节拍。",
+    "source_table": "场景写法",
+    "source_id": "SP-077"
+  },
+  {
+    "text": "队友只喊666",
+    "source_table": "人设与关系",
+    "source_id": "CH-085"
+  },
+  {
+    "text": "职业定位无差异",
+    "source_table": "人设与关系",
+    "source_id": "CH-085"
+  },
+  {
+    "text": "公会资源随便拿",
+    "source_table": "人设与关系",
+    "source_id": "CH-085"
+  },
+  {
+    "text": "只写手速快和全场震惊",
+    "source_table": "写作技法",
+    "source_id": "WT-081"
+  },
+  {
+    "text": "读者看不懂操作价值",
+    "source_table": "写作技法",
+    "source_id": "WT-081"
+  },
+  {
+    "text": "解说替代过程",
+    "source_table": "写作技法",
+    "source_id": "WT-081"
+  },
+  {
+    "text": "奖励无意义",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-092"
+  },
+  {
+    "text": "没人知道结果",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-092"
+  },
+  {
+    "text": "靠旁白夸主角",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-092"
+  },
+  {
+    "text": "看不懂操作",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-079"
+  },
+  {
+    "text": "全靠解说夸",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-079"
+  },
+  {
+    "text": "翻盘没有风险",
+    "source_table": "爽点与节奏",
+    "source_id": "PA-079"
+  },
+  {
+    "text": "失败原因不清",
+    "source_table": "桥段套路",
+    "source_id": "TR-089"
+  },
+  {
+    "text": "翻盘只靠手速",
+    "source_table": "桥段套路",
+    "source_id": "TR-089"
+  },
+  {
+    "text": "队友只负责喊加油",
+    "source_table": "桥段套路",
+    "source_id": "TR-089"
+  },
+  {
+    "text": "所有人同时冲上去放大招，读者看不清空间也不知道谁有用。",
+    "source_table": "场景写法",
+    "source_id": "SP-068"
+  },
+  {
+    "text": "比赛机制含糊",
+    "source_table": "裁决规则",
+    "source_id": "RS-010"
+  },
+  {
+    "text": "团队只喊口号",
+    "source_table": "裁决规则",
+    "source_id": "RS-010"
+  },
+  {
+    "text": "胜负没有策略因果",
+    "source_table": "裁决规则",
+    "source_id": "RS-010"
+  }
+]

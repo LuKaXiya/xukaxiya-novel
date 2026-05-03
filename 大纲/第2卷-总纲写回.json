@@ -1,0 +1,21 @@
+{
+  "next_volume_anchor": {
+    "volume": 3,
+    "volume_name": "势力纷争",
+    "core_conflict": "公会战+城战，建立自己的团队，与大公会博弈",
+    "volume_end_climax": "战胜第一个顶级对手"
+  },
+  "foreshadow_writeback": [
+    {"content": "上将家族开始关注主角", "buried_chapter": "第85章", "payoff_chapter": "第300章", "level": "高"},
+    {"content": "苏晚晴顶级战队背景确认", "buried_chapter": "第71章", "payoff_chapter": "第100章", "level": "高"},
+    {"content": "虚空剑士终极奥义展示", "buried_chapter": "第99章", "payoff_chapter": "第250章", "level": "高"},
+    {"content": "前世宿敌暗示", "buried_chapter": "第85章", "payoff_chapter": "第300章", "level": "高"},
+    {"content": "主角身份线开始被女主怀疑", "buried_chapter": "第55,59章", "payoff_chapter": "第150章", "level": "中"},
+    {"content": "散人联盟团队建立", "buried_chapter": "第86章", "payoff_chapter": "第150章", "level": "中"}
+  ],
+  "open_loop_writeback": [
+    {"content": "上将家族与主角的关系是什么？", "buried_chapter": "第85章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "苏晚晴何时会确认主角身份？", "buried_chapter": "第59章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "虚空剑士的终极奥义具体是什么？", "buried_chapter": "第99章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}

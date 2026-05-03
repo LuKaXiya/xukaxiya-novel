@@ -22,3 +22,6 @@ __pycache__/
 .webnovel/context_cache.json
 .webnovel/*.lock
 .webnovel/*.bak
+
+# Story system lock files
+.story-system/**/*.lock

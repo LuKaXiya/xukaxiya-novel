@@ -37,23 +37,7 @@
     "last_updated": "2026-05-02 23:45:39",
     "volumes_completed": [],
     "current_volume": 1,
-    "volumes_planned": [
-      {
-        "volume": 1,
-        "chapters_range": "1-50",
-        "planned_at": "2026-05-02"
-      },
-      {
-        "volume": 2,
-        "chapters_range": "51-100",
-        "planned_at": "2026-05-02"
-      },
-      {
-        "volume": 3,
-        "chapters_range": "101-200",
-        "planned_at": "2026-05-03"
-      }
-    ]
+    "volumes_planned": []
   },
   "protagonist_state": {
     "name": "蒋夜晨",

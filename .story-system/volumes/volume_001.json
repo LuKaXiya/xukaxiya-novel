@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "VOLUME_BRIEF",
+    "generator_version": "phase2",
+    "source_trace": []
+  },
+  "volume_goal": {
+    "summary": "第1卷延续 游戏电竞 的主冲突"
+  },
+  "selected_tropes": [
+    "游戏电竞"
+  ],
+  "selected_pacing": {
+    "wave": "比赛段强节奏训练段短兑现"
+  },
+  "selected_scenes": [],
+  "anti_patterns": [
+    "胜负靠口号",
+    "技能机制不清",
+    "团队配合缺因果",
+    "只写双方进入比赛然后主角操作很秀，缺少战术和赛场节拍。",
+    "队友只喊666",
+    "职业定位无差异",
+    "公会资源随便拿",
+    "只写手速快和全场震惊",
+    "读者看不懂操作价值",
+    "解说替代过程",
+    "奖励无意义",
+    "没人知道结果",
+    "靠旁白夸主角",
+    "看不懂操作",
+    "全靠解说夸",
+    "翻盘没有风险",
+    "失败原因不清",
+    "翻盘只靠手速",
+    "队友只负责喊加油",
+    "所有人同时冲上去放大招，读者看不清空间也不知道谁有用。",
+    "比赛机制含糊",
+    "团队只喊口号",
+    "胜负没有策略因果"
+  ],
+  "system_constraints": [
+    "规则清晰的竞技反转"
+  ],
+  "overrides": {
+    "locked": {},
+    "append_only": {},
+    "override_allowed": {}
+  }
+}
