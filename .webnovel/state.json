@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "title": "网游之虚空剑神",
+    "genre": "网游",
+    "created_at": "2026-05-02",
+    "target_words": 2000000,
+    "target_chapters": 400,
+    "golden_finger_name": "",
+    "golden_finger_type": "无金手指",
+    "golden_finger_style": "纯技术流",
+    "core_selling_points": "普通剑士积累→隐藏任务触发→虚空剑士觉醒→团战收割统治",
+    "protagonist_structure": "单主角",
+    "heroine_config": "单女主",
+    "heroine_names": "",
+    "heroine_role": "",
+    "co_protagonists": "",
+    "co_protagonist_roles": "",
+    "antagonist_tiers": "",
+    "world_scale": "多城多服",
+    "factions": "氪金公会vs平民技术流；大战队垄断资源",
+    "power_system_type": "操作决定胜负（属性相近时）",
+    "social_class": "",
+    "resource_distribution": "",
+    "gf_visibility": "",
+    "gf_irreversible_cost": "",
+    "target_reader": "20-35岁男性，游戏玩家",
+    "platform": "起点中文网",
+    "currency_system": "",
+    "currency_exchange": "",
+    "sect_hierarchy": "",
+    "cultivation_chain": "",
+    "cultivation_subtiers": ""
+  },
+  "progress": {
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-05-02 23:45:39",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": []
+  },
+  "protagonist_state": {
+    "name": "蒋夜晨",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "无金手指",
+      "level": 0,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {}
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": []
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 0,
+    "last_fire_chapter": 0,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 0,
+    "history": []
+  }
+}
