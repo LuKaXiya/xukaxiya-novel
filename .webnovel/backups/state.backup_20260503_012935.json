@@ -52,11 +52,6 @@
         "volume": 3,
         "chapters_range": "101-200",
         "planned_at": "2026-05-03"
-      },
-      {
-        "volume": 4,
-        "chapters_range": "201-400",
-        "planned_at": "2026-05-03"
       }
     ],
     "chapter_status": {
